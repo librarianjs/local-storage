@@ -1,6 +1,6 @@
 {
   "name": "librarian-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local filesystem storage engine for LibrarianJS",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/librarianjs/local-storage/issues"
   },
-  "homepage": "https://github.com/librarianjs/local-storage"
+  "homepage": "https://github.com/librarianjs/local-storage",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
 }
