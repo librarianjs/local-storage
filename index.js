@@ -2,8 +2,12 @@ var _ = require( 'lodash' )
 var path = require( 'path' )
 var fs = require( 'fs' )
 
+var baseDir = process.env.PWD
+  || process.env.LOCAL_META_BASEDIR
+  || __dirname
+
 var defaults = {
-  files: path.join( process.env.PWD, 'files' )
+  files: path.join( baseDir, 'files' )
 }
 
 function LocalStorage( options ){
