@@ -1,6 +1,6 @@
 {
   "name": "librarian-local-storage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Local filesystem storage engine for LibrarianJS",
   "main": "index.js",
   "scripts": {
