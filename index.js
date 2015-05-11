@@ -3,7 +3,7 @@ var path = require( 'path' )
 var fs = require( 'fs' )
 
 var baseDir = process.env.PWD
-  || process.env.LOCAL_META_BASEDIR
+  || process.env.LOCAL_STORAGE_BASEDIR
   || __dirname
 
 var defaults = {
